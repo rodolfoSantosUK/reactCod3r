@@ -8,5 +8,5 @@ const tag = <strong> Uso de JSX no react !</strong>
 ReactDOM.render(
     <div> 
      { tag }
-    </div> ,
+    </div>,
      el)
