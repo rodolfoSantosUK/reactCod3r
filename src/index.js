@@ -9,4 +9,4 @@ ReactDOM.render(
     <div> 
      { tag }
     </div>,
-     el)
+     el )
