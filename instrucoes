@@ -1,0 +1,17 @@
+## Instalando mongo db ##
+
+https://www.mongodb.com/dr/fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1804-4.2.8.tgz/download
+
+Mover para pasta opt/mongodb e atualizar /etc/environment
+
+whoami 
+
+sudo chown ubuntu20:ubuntu20 -R /data  -> fazer isso dentro do diretorio no opt
+
+## Fundamentos react ## 
+ # Criando Projeto   #
+
+        Usando comando npx  baixa as dependências de forma temporária e 
+        evita que eu instale referência por contexto global.
+
+        npx create-react-app fundamentos-react.
