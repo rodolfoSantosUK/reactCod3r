@@ -15,3 +15,6 @@ sudo chown ubuntu20:ubuntu20 -R /data  -> fazer isso dentro do diretorio no opt
         evita que eu instale referência por contexto global.
 
         npx create-react-app fundamentos-react.
+
+ # Conhecendo JSX #
+                   
