@@ -7,11 +7,16 @@ import Aleatorio from './components/basicos/Aleatorio'
 import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAluno from './components/repeticao/ListaAlunos'
+import TabelaProdutos from './components/repeticao/TabelaProdutos'
 
 
 export default () => (
     <div id="app" >
         <h1>Fundamentos React </h1>
+
+        <Card titulo="Desafio repetição ">
+            <TabelaProdutos></TabelaProdutos>
+        </Card>
 
         <Card titulo=" Trabalhando com repetição ">
             <ListaAluno></ListaAluno>

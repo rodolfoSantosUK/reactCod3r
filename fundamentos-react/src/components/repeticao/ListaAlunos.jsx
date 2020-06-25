@@ -1,7 +1,6 @@
 import React from 'react'
 import alunos from '../../data/aluno'
 
-
 export default props => {
     console.log(alunos)
  
