@@ -6,11 +6,16 @@ import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from './components/basicos/Aleatorio'
 import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
+import ListaAluno from './components/repeticao/ListaAlunos'
 
 
 export default () => (
     <div id="app" >
         <h1>Fundamentos React </h1>
+
+        <Card titulo=" Trabalhando com repetição ">
+            <ListaAluno></ListaAluno>
+        </Card>
 
         <Card titulo=" Componente com filho ">
             <Familia sobrenome="Ferreira" >
