@@ -8,11 +8,15 @@ import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAluno from './components/repeticao/ListaAlunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
-
+import ParOuImpar from "./components/condicional/ParOuImpar"
 
 export default () => (
     <div id="app" >
         <h1>Fundamentos React </h1>
+
+        <Card titulo="Condicional ">
+            <ParOuImpar numero={10} ></ParOuImpar>
+        </Card>
 
         <Card titulo="Desafio repetição ">
             <TabelaProdutos></TabelaProdutos>
