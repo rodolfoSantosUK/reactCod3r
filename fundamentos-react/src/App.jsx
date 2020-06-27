@@ -10,10 +10,15 @@ import ListaAluno from './components/repeticao/ListaAlunos'
 import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import ParOuImpar from "./components/condicional/ParOuImpar"
 import UsuarioInfo from "./components/condicional/UsuarioInfo"
+import DiretaPai from "./components/comunicacao/DiretaPai"
 
 export default () => (
     <div id="app" >
         <h1>Fundamentos React </h1>
+
+        <Card titulo="Comunicação direta">
+            <DiretaPai></DiretaPai>
+        </Card>
 
         <Card titulo="Condicional ">
             <UsuarioInfo usuario={{nome: 'Fernando'}} ></UsuarioInfo>
